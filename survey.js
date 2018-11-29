@@ -620,7 +620,7 @@ function homePage() {
 			dr_button_combo_show=dr_button_combo_show+'<tr><td width="10px"></td><td><div style="width:100%; " onclick="'+dr_linkPath1+'"><img style="padding-top:0px; padding-bottom:0px;" hight="150px" width="150px" src="help.png"> </div></td></tr>'
 			
 			dr_button_combo_show=dr_button_combo_show+'<tr><td width="10px"></td><td><div style="width:100%; " onclick="'+dr_linkPath2+'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img  style="padding-top:0px; padding-bottom:0px;" hight="100px" width="100px" src="notice.png"> </div></td></tr></table>'
-			dr_button_combo_show=dr_button_combo_show+'<tr><td width="10px"></td><td><div style="width:100%; " onclick="'+dr_linkPath2+'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img  style="padding-top:0px; padding-bottom:0px;" hight="100px" width="100px" src="others_image.png"> </div></td></tr></table>'
+			dr_button_combo_show=dr_button_combo_show+'<tr><td width="10px"></td><td><div style="width:100%; " onclick="'+dr_linkPath3+'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img  style="padding-top:0px; padding-bottom:0px;" hight="90px" width="90px" src="others_image.png"> </div></td></tr></table>'
 			
 			
 			$('#drPage').empty();
