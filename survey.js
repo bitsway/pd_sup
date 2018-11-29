@@ -606,19 +606,21 @@ function homePage() {
 			
 			var dr_path_value1='http://w02.yeapps.com/pd/team_report_mobile/teamShow_web_help?'
 			var dr_path_value2='http://w02.yeapps.com/pd/team_report_mobile/teamShow_web_notice?'
+			var dr_path_value3='http://w02.yeapps.com/pd/team_report_mobile/teamShow_web_report?'
 			
 			
 			var dr_linkPath1="window.open('"+dr_path_value1+"cid="+localStorage.cid+"&rep_id="+localStorage.user_id+"&rep_pass="+localStorage.user_pass	+"', '_system');"
 			
 			var dr_linkPath2="window.open('"+dr_path_value2+"cid="+localStorage.cid+"&rep_id="+localStorage.user_id+"&rep_pass="+localStorage.user_pass	+"', '_system');"
 			
+			var dr_linkPath3="window.open('"+dr_path_value3+"cid="+localStorage.cid+"&rep_id="+localStorage.user_id+"&rep_pass="+localStorage.user_pass	+"', '_system');"
 			
 			
 			var dr_button_combo_show='<table width="100%" border="0">'
 			dr_button_combo_show=dr_button_combo_show+'<tr><td width="10px"></td><td><div style="width:100%; " onclick="'+dr_linkPath1+'"><img style="padding-top:0px; padding-bottom:0px;" hight="150px" width="150px" src="help.png"> </div></td></tr>'
 			
 			dr_button_combo_show=dr_button_combo_show+'<tr><td width="10px"></td><td><div style="width:100%; " onclick="'+dr_linkPath2+'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img  style="padding-top:0px; padding-bottom:0px;" hight="100px" width="100px" src="notice.png"> </div></td></tr></table>'
-			
+			dr_button_combo_show=dr_button_combo_show+'<tr><td width="10px"></td><td><div style="width:100%; " onclick="'+dr_linkPath2+'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img  style="padding-top:0px; padding-bottom:0px;" hight="100px" width="100px" src="others_image.png"> </div></td></tr></table>'
 			
 			
 			$('#drPage').empty();
