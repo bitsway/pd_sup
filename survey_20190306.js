@@ -589,7 +589,7 @@ function homePage() {
 			//var button_combo='<li style="border-bottom-style:solid; border-color:#CBE4E4;border-bottom-width:thin"><table width="100%" border="0" id="order_tbl" cellpadding="0" cellspacing="0" style="border-radius:5px;"><tr><td><a href="#" onclick="'+linkPath+'">'+'<input type="submit"   style="width:100%; height:50px; background-color:#09C; color:#FFF; font-size:20px" value="     TEAM REPORT      "   /></a></td></tr></table></li>';
 			
 			
-			var button_combo_show='<table width="100%" border="0"  style="background-color:#000"><tr>'
+			var button_combo_show='<table width="100%" border="0"><tr>'
 			button_combo_show=button_combo_show+'<td><div style="width:100%; " onclick="'+linkPath1+'"><img style="padding-top:0px; padding-bottom:0px;" hight="100px" width="100px" src="SMC.png"> </div></td>'
 			button_combo_show=button_combo_show+'<td><div style="width:100%; " onclick="'+linkPath2+'"><img  style="padding-top:0px; padding-bottom:0px;" hight="100px" width="100px" src="uni_report.png"> </div></td>'
 			button_combo_show=button_combo_show+'<td><div style="width:100%; " onclick="'+linkPath3+'"><img  style="padding-top:0px; padding-bottom:0px;" hight="100px" width="100px" src="Arla.png"> </div></td></tr></table>'
