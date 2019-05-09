@@ -4748,7 +4748,7 @@ function rep_reqApprv_list(repId){
 	//alert (repId)
 	$("#req_wait_image_login").show();
 	localStorage.repReq=repId
-	//alert (localStorage.base_url+'reqList?cid='+localStorage.cid+'&rep_id='+localStorage.user_id+'&rep_pass='+localStorage.user_pass+'&synccode='+localStorage.synccode+'&repId='+repId)
+	//alert (localStorage.base_url+'reqList?cid='+localStorage.cid+'&rep_id='+localStorage.user_id+'&rep_pass='+localStorage.user_pass+'&synccode='+localStorage.synccode+'&sup_repId='+repId)
 	$.ajax(localStorage.base_url+'reqList?cid='+localStorage.cid+'&rep_id='+localStorage.user_id+'&rep_pass='+localStorage.user_pass+'&synccode='+localStorage.synccode+'&sup_repId='+repId,{
 	// cid:localStorage.cid,rep_id:localStorage.user_id,rep_pass:localStorage.user_pass,synccode:localStorage.synccode,
 	type: 'POST',
